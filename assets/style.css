@@ -1,0 +1,216 @@
+@import url('fonts/Poppins.zip');
+
+body {
+    margin: 0px;
+    background: linear-gradient(#F8F9FA,#F1F3F5);
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: #419FD9;
+    color: white;
+}
+
+.list li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
+   
+}
+.list li a{
+    color: white; 
+    text-decoration: none;
+}
+
+.menu-list {
+    width: 800px;
+    margin: 20px;
+
+}
+
+.menu-logo {
+    width: 150px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu-contact {
+    width: 150px;
+    margin: 20px;
+    background-color: #EBF21D;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* background-color: violet;*/
+}
+
+#identity li {
+   list-style: none;
+   font-weight: bold;
+}
+
+.picture {
+    width: 300px;
+    height: 300px;
+}
+
+#about-me {
+    background: linear-gradient(#E8E8E4,#EDEDE9);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 500px;
+    height: 230px;
+    border-radius: 50px;
+    padding: 30px;
+    
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px !important;
+    justify-content: space-around;
+    
+}
+.item2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+}
+
+.item1 h2{
+    font-family: 'Poppins', sans-serif;
+    color: #419FD9;
+    font-style: italic;
+    text-align: center;
+   
+}
+
+.experiences {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(#E8E8E4,#EDEDE9);
+    justify-content: space-around!important;
+    margin: 50px;
+}
+
+.experiences:hover {
+    width: 330px;
+    height: 210px;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient( #F1FAEE,#E6E1D6,#E9ECEF);
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.skills {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(#E8E8E4,#EDEDE9);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50%;
+}
+.skills:hover{
+    width: 370px;
+    height: 370px;
+    border-radius: 30px;
+    background: linear-gradient( #F1FAEE,#E6E1D6,#E9ECEF);
+    /*box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;*/
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 50%;
+}
+
+.my-skills{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.background{
+    width: 300px;
+    height: 130px;
+    background: linear-gradient(#E8E8E4,#EDEDE9);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.background:hover {
+    width: 330px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient( #F1FAEE,#E6E1D6,#E9ECEF);
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.container6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px !important;
+    justify-content: space-around;
+    align-items: center;
+}
+.project{
+    width: 500px;
+    height: 250px;
+    /*background-color: #EBF21D;*/
+    padding: 30px;
+   
+}
+.project img {
+   width: 500px;
+    height: 250px;
+}
+
+/*
+#0511F2
+#419FD9
+#05F2DB
+#EBF21D
+#0D0D0D
+*/
